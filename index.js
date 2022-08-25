@@ -1,6 +1,4 @@
-/*
-    [   BALTRA  System   ]
-*/
+
 
 const express = require("express");
 const app = express();
@@ -12,8 +10,7 @@ app.use('/ping', (req, res) => {
   res.send(new Date());
 });
 
-// BALTRA DEV 
-// BALTRA DEV
+
 
 
 const Discord = require('discord.js');
